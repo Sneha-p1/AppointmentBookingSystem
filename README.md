@@ -10,7 +10,7 @@ A clear project structure for both backend APIs and the frontend plugin.
 ---
 ## Setup & Run Locally
 
-### **1️⃣ Clone the Repository**
+### **Clone the Repository**
 ```sh
 git clone git@github.com:Sneha-p1/AppointmentBookingSystem.git
 ```
