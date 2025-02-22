@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Appointment Booking System</title>
+  <style>
+     .container {
+
+            background: rgba(119, 211, 43, 0.1);
+            text-align: center;
+        }
+  </style>
+
+  <script>
+    window.bookingWidgetConfig = {
+      apiBaseUrl: 'http://localhost:5000/api' 
+    };
+  </script>
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to Our Spa Booking System</h1>
+    <p>Book your appointment with ease and convenience.</p>
+</div>
+  <div id="booking-widget"></div>
+
+  <script src="js/booking.js"></script>
+</body>
+</html>
