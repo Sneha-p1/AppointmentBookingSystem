@@ -17,15 +17,18 @@ The backend is built using **Node.js**, **Express**, and **MongoDB**.
 **Appointment Slots:**  
   - Generates 30-minute intervals between 10:00 AM and 5:00 PM.
   - Excludes the break period between 1:00 PM and 2:00 PM.
+    
 **Booking API:**  
   - Allows users to book an appointment by providing name, phone, date, and selected time slot.
   - Validates time slot to prevent booking during break time and double-booking.
+    
 **Slot Availability API:**  
   - Fetches available time slots for a specific date.
 
 ### API Endpoints:
 **GET** /api/slots/:date  
   - Returns an array of available time slots for the given date.
+    
 **POST** /api/book  
   - Books an appointment if the slot is valid and not already booked.
   - Expects a JSON payload:
@@ -47,11 +50,14 @@ The frontend plugin is a self-contained JavaScript file (**booking.js**) that ca
 **Date Picker & Time Slot Dropdown:**  
   - Allows users to select a date.
   - Fetches available time slots from the backend.
+    
 **Booking Form:**  
   - Users can enter their name and phone number.
   - Submits a booking request to the backend.
+    
 **Dynamic UI:**  
   - Provides feedback (success/error messages) based on the booking status.
+
 **Reusable:**  
   - Easily embedded on any webpage by including a <script> tag.
 
