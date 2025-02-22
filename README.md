@@ -8,12 +8,6 @@ A **reusable frontend plugin** built using HTML, CSS, and vanilla JavaScript to 
 A clear project structure for both backend APIs and the frontend plugin.
 
 ---
-## Setup & Run Locally
-
-### **Clone the Repository**
-```sh
-git clone git@github.com:Sneha-p1/AppointmentBookingSystem.git
-```
 
 ## Backend Overview
 
@@ -64,6 +58,11 @@ The frontend plugin is a self-contained JavaScript file (**booking.js**) that ca
 ---
 
 ## How to Run the Project Locally
+
+### **Clone the Repository**
+```sh
+git clone git@github.com:Sneha-p1/AppointmentBookingSystem.git
+```
 
 ### Prerequisites:
 **Node.js & npm:** Install from [nodejs.org](https://nodejs.org/).
